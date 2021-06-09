@@ -22,34 +22,37 @@
         <!-- MAIN -->
         <main>
             <!-- camara frontal -->
-            <figure class="camaraFrente">
-                    <picture>
-                    <!-- smartphone -->
-                        <source srcset=" 
-                        img/smartphone/camara_frente.jpg 1x,
-                        img/smartphone/camara_frente@2x.jpg 2x,
-                        img/smartphone/camara_frente@3x.jpg 3x
-                        "
-                        media="(min-width:300px) and (max-width:450px) and (orientation: portrait)"
-                        />
-                    <!-- escritorio -->
-                        <source srcset="
-                        img/desktop/camara_frente.jpg    1x,
-                        img/desktop/camara_frente@2x.jpg 2x
-                        "
-                        media="(min-width:1200px)"
-                        />
-                    <!-- Imagen de respaldo -->
-                        <img src="" alt="camara vista desde el plano frontal" />
-                    </picture>
-                    <figcaption>
-                        <p class="camaraDescripcion">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis sapien ac eget orci lectus a. Tellus integer accumsan aliquet arcu cras tristique. Semper proin porta adipiscing faucibus. Eu scelerisque ornare nunc, venenatis fringilla tincidunt consectetur.
-                        </p>
-                        <a href="#" class="leerMasBtnt">Leer más</a>
-                    </figcaption>
-            </figure>
-                <!-- camara desde arriba -->
+            <section class="containerMain1">
+                <figure class="camaraFrente">
+                        <picture>
+                        <!-- smartphone -->
+                            <source srcset=" 
+                            img/smartphone/camara_frente.jpg 1x,
+                            img/smartphone/camara_frente@2x.jpg 2x,
+                            img/smartphone/camara_frente@3x.jpg 3x
+                            "
+                            media="(min-width:300px) and (max-width:450px) and (orientation: portrait)"
+                            />
+                        <!-- escritorio -->
+                            <source srcset="
+                            img/desktop/camara_frente.jpg    1x,
+                            img/desktop/camara_frente@2x.jpg 2x
+                            "
+                            media="(min-width:1200px)"
+                            />
+                        <!-- Imagen de respaldo -->
+                            <img src="" alt="camara vista desde el plano frontal" />
+                        </picture>
+                        <figcaption class="camaraFrente__descripcion">
+                            <p class="camaraDescripcion">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis sapien ac eget orci lectus a. Tellus integer accumsan aliquet arcu cras tristique. Semper proin porta adipiscing faucibus. Eu scelerisque ornare nunc, venenatis fringilla tincidunt consectetur.
+                            </p>
+                            <a href="#" class="leerMasBtnt">Leer más</a>
+                        </figcaption>
+                </figure>
+            </section>
+            <!-- camara desde arriba -->
+            <section class="containerMain2">
                 <figure class="camaraArriba">
                     <picture>
                     <!-- smartphone -->
@@ -70,7 +73,7 @@
                     <!-- Imagen de respaldo -->
                         <img src="" alt="camara vista desde el plano frontal" />
                     </picture>
-                    <figcaption>
+                    <figcaption class="camaraArriba__opciones">
                         <h4 class="">Opción 1</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis sapien ac eget orci lectus a.</p>
                         <h4 class="">Opción 2</h4>
@@ -81,9 +84,10 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis sapien ac eget orci lectus a.</p>
                     </figcaption>
                 </figure>
+            </section>
                 <!-- lente de la cámara -->
-                <section class="lente">
-                    <figure>
+            <section class="containerMain3">
+                <figure class="lente">
                         <picture>
                         <!-- smartphone -->
                             <source srcset=" 
@@ -103,15 +107,15 @@
                         <!-- Imagen de respaldo -->
                             <img src="" alt="camara vista desde el plano frontal" />
                         </picture>
-                        <figcaption>
+                        <figcaption class="lente__explicacion">
                             <p class="explicacionLente">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictumst proin augue habitant nibh condimentum. Mi imperdiet enim aliquam enim proin tellus, fringilla et et. Ultrices lobortis in risus suspendisse eget rhoncus, mauris, lobortis. In tincidunt bibendum at in cursus. Eleifend faucibus turpis quis justo amet maecenas quis. Suscipit nibh sem est at. A lectus euismod metus, pretium id.
                                 Leo ac elementum diam eget massa consectetur. Adipiscing maecenas sit gravida tincidunt posuere aenean semper auctor. Placerat sit quam mattis integer amet cursus. Turpis non magna risus libero, volutpat, et. Tortor elementum magna odio nulla. Id fermentum sapien eu nunc tristique id. Egestas purus venenatis interdum odio est ipsum faucibus maecenas. Ultricies sit erat ac nunc velit. Etiam neque blandit pharetra orci sed amet. Ultricies nec, vulputate suspendisse auctor risus massa vel, viverra pulvinar. Malesuada dignissim feugiat morbi sit dolor urna.
                                 A et ipsum sollicitudin phasellus ultricies. Suscipit et et platea eget in faucibus. Vitae amet, malesuada erat praesent. Enim, lacinia enim placerat mi morbi dui sapien eget. Sapien convallis sed quis amet tellus in sed quam id.
                             </p>
                         </figcaption>
-                    </figure>
-                </section>
+                </figure>
+            </section>
         </main>
         <!-- FOOTER -->
         <footer>
