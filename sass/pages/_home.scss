@@ -32,7 +32,7 @@ main{
         .camaraFrente{
             background-color:$colorProducto;
             &__descripcion{
-                padding-bottom: 2rem;
+                padding: 1rem 1rem 2rem 1rem;
             }
         }
     }

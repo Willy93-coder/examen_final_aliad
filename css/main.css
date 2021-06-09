@@ -556,7 +556,7 @@ main .containerMain1 .camaraFrente {
 }
 
 main .containerMain1 .camaraFrente__descripcion {
-  padding-bottom: 2rem;
+  padding: 1rem 1rem 2rem 1rem;
 }
 
 main .containerMain2 .camaraArriba__opciones {
