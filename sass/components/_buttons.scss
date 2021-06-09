@@ -1,2 +1,63 @@
 /* @BOTONES */
 /* ********** */
+
+a{
+    display: block;
+    font-size: $fontSizeMinimo;
+}
+
+// Header
+// btn comprar ya
+.menu__comprar{
+    padding: .9375rem;
+    background-color: $colorBtn;
+    color: $colorletrasBtn;
+    margin-bottom: 2rem;
+}
+
+// btn productos
+.menu__productos{
+    padding: .9375rem 7.6875rem;
+    background-color: $colorProducto;
+    color: $colorLetras;
+    margin-bottom: 1rem;
+}
+
+// btn servicios
+.menu__servicios{
+    padding: .9375rem 7.6875rem;
+    background-color: $colorProducto;
+    color: $colorLetras;
+}
+
+// Main
+// Boton leer más
+.leerMasBtnt{
+    background-color: $colorBtn;
+    border-radius: 0px 50px 50px 0px;
+    color: $colorletrasBtn;
+    padding-top: .9375rem;
+    padding-bottom: .9375rem;
+    padding-left: 1rem;
+    margin-bottom: 2rem;
+}
+
+// Footer
+// link redes
+.link-redes{
+    border: 1px solid black;
+    padding: .9375rem;
+    color: $colorLetras;
+    margin-bottom: 1rem;
+}
+
+// Botón formulario
+.formulario__btn{
+    border: none;
+    border-radius: 25px;
+    padding: .9375rem;
+    font-family: $tipografiaGeneral;
+    font-weight: $fontSizeGeneral;
+    background-color: $colorBtn;
+    color: $colorletrasBtn;
+}

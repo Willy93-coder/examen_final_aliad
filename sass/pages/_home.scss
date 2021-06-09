@@ -1,2 +1,47 @@
 /* @HOME */
 /* ********** */
+
+// General
+html{
+    font-family: $tipografiaGeneral;
+}
+//  Títulos
+h4{
+    font-size: $fontSizeGeneral;
+    font-weight: $fontWeightBold;
+}
+h5{
+    font-size: $fontSizeGeneral;
+    font-weight: $fontWeightBold;
+}
+h6{
+    font-size: $fontSizeMinimo;
+    font-weight: $fontWReagular;
+}
+// Header
+header{
+    padding: .3125rem 16px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px 16px 0 16px;
+    .camaraFrente{
+        padding: 16px;
+        background-color:$colorProducto;
+    }
+    .lente{
+        background-color: $colorBg;
+        .explicacionLente{
+            font-size: $fontSizeGeneral;
+            font-weight: $fontWSemiBold;
+        }
+    }
+}
+// Footer
+footer{
+    padding: 0 16px;
+    background-color: $colorFooter;
+}
